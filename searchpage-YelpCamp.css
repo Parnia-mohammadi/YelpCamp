@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 3% 5%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5vmax;
+}
+.nav{
+    width: 100%;
+    margin-bottom: 4%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+.nav img{
+    flex: 10%;
+}
+.nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex: 90%;
+}
+.nav ul li{
+    text-align: center;
+    margin-top: 1px;
+    padding: 1% 2%;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #979797;
+    font-weight: bold;
+}
+.nav ul li#create-account{
+    margin-right: 0;
+    background-color: black;
+    padding: 10px 15px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.nav img.Menu{
+    display: none;
+}
+.header{
+    background-color: #F9F6F1;
+    color: #736F6C;
+    width: 100%;
+    padding: 3% 60% 3% 4%;
+    position: relative;
+    margin-bottom: 5%;
+}
+.header h1{
+    color: black;
+    font-size: 3vmax;
+}
+.header #search-btn{
+    border-radius: 4px;
+    padding: 10px 15px 10px 40px;
+    margin: 0 20px 0 0;
+    position: absolute;
+    z-index: 1;
+}
+.header img{
+    position: absolute;
+    margin-right: -10px -20px;
+    z-index: 2;
+}
+.header p a{
+    color: #736F6C;
+}
+.main-img-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.img-card{
+    width: 32%;
+    border: 1px solid #DADADA;
+    padding: 1.5%;
+    color: #575757;
+    margin-bottom: 3%;
+}
+.img-card img{
+    width: 100%;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #DADADA;
+    border-radius: 10px;
+}
+.img-card p.head{
+    color: black;
+    padding: 0 2%;
+    margin: 2% 0 0 0;
+    font-weight: bold;
+}
+.img-card p{
+    margin: 2% 0;
+    padding: 0 0 0 2%;
+}
+.img-card button{
+    border: 1px solid #DADADA;
+    border-radius: 4px;
+    padding: 10px 20px;
+    width: 100%;
+    background-color: white;
+}
+.img-card button a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.footer {
+    clear: both;
+    margin: 3% 0;
+}
