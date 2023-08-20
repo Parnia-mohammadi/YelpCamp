@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5vmax;
+}
+.main{
+    float: left;
+    width: 60%;
+    height: 100vh;
+    padding: 3% 10%;
+}
+.nav a{
+    color: #828282;
+    text-decoration: none;
+    float: right;
+}
+.article{
+    padding-top: 2%;
+}
+.article form label{
+    color: #828282;
+    display: block;
+    margin-bottom: 2%;
+}
+.article form input{
+    background-color: #F7F7F7;
+    width: 100%;
+    padding: 2% 5% ;
+    margin-bottom: 2%;
+    border: #F7F7F7;
+    border-radius: 3px;
+}
+.article form input[type=submit]{
+    background-color: black;
+    color: white;
+    margin-top: 1%;
+}
+.article h1{
+    font-size: 3.5vmax;
+
+}
+.article span{
+    color: #9B9B9B;
+    font-size: 1vw;
+    color: #828282;
+}
+.article a{
+    font-size: 1vw;
+    color: #229FB1;
+    font-weight: bold;
+}
+.side{
+    background-color: #F9F6F1;
+    width: 40%;
+    float: right;
+    padding: 10%;
+    height: 100vh;
+    font-weight: bold;
+    font-size: 2vmax;
+}
+.side .user img, p{
+    float: left;
+}
+.side .user p{
+    font-size: 1.2vmax;
+    margin: 0;
+    padding: 0 0 0 5%;
+}
+.side .user p:last-child{
+    color: #6C6964;
+}
